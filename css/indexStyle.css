@@ -1,4 +1,4 @@
-body > * {/* min-width: 1920px; */ /* overflow-x: hidden; */}
+body > * {min-width: 1850px; /* overflow-x: hidden; */}
 /* ===================================header 시작 */
 header {position: fixed; top: 0; left: 0; width: 100%; height: 70px; z-index: 100; background: #fff; border-bottom: 1px solid #000; display: flex; justify-content: space-between; align-items: center; padding: 0 60px;}
 header .logo {}
@@ -158,4 +158,4 @@ footer .footerCenter .right li a {font-weight: 500;}
 footer .footerBottom {border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 33px 60px; justify-content: space-between;}
 footer .footerBottom li {}
 /* =================================== 탑버튼 */
-body > #topBtn{display: block; z-index: 100; width: 40px; height: 40px; border-radius: 100%; background-color: rgba(0, 0, 0, 0.5); color: #f2f2f2; text-align: center; line-height: 40px; position: fixed; right: 60px; bottom: 30px;}
+#topBtn{display: block; z-index: 100; width: 40px; height: 40px; border-radius: 100%; background-color: rgba(0, 0, 0, 0.5); color: #f2f2f2; text-align: center; line-height: 40px; position: fixed; right: 60px; bottom: 30px;}
